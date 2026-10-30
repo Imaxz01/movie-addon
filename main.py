@@ -37,6 +37,6 @@ def get_stream(type: str, id: str):
     if type == "movie":
         streams.append({
             "title": "Test Video (Working!)",
-            "url": "http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4"
+            "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
         })
     return {"streams": streams}
